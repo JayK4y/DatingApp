@@ -25,7 +25,7 @@ namespace DatingApp.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetValues()
         {
-            throw new Exception("The computer says no!");
+            //throw new Exception("The computer says no!");
             var values = await _context.Values.ToListAsync();
 
             return Ok(values);
