@@ -13,7 +13,7 @@ export class AlertifyService {
       if (e) {
         okCallback();
       }
-    });
+    }).setHeader('<h3>Dating App</h3>');
   }
 
   success(message: string) {
